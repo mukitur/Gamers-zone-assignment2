@@ -42,6 +42,7 @@
   }
   .nodownload-container {
     flex-direction: column-reverse;
+    margin: 0 auto;
   }
   .nodownload-img,
   .nodownload-title {
@@ -50,6 +51,7 @@
   .nodownload-title h2 {
     text-align: center;
     font-size: 2.5rem;
+    margin-top: 50px;
   }
 
   .nodownload-title p {
