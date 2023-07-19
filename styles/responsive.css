@@ -36,27 +36,44 @@
   .online-games-container h1 {
     margin-top: 30px;
   }
-  .play-online-container {
-    flex-direction: column;
+  /* nodownload styles */
+  .nodownload-section {
+    padding: 10px;
   }
-  .play-online-container h2 {
-    text-align: center;
+  .nodownload-container {
+    flex-direction: column-reverse;
   }
-  .play-online-container p {
-    text-align: center;
-  }
-  .play-online-bottom-img {
-    right: 150px;
-    top: 300px;
-    bottom: 200px;
-    /* bottom: 200px; */
-  }
-  .play-online-img img {
+  .nodownload-img,
+  .nodownload-title {
     width: 100%;
-    /* height: 100%; */
   }
-  .play-online-bottom-img img {
-    width: 100%;
+  .nodownload-title h2 {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  .nodownload-title p {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .nodownload-img img {
+    display: inline;
+  }
+  /* action games start */
+  .action-games {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .action-game-container {
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 10px;
+
+    padding: 20px;
+  }
+  .card {
+    width: 50%;
+    text-align: center;
   }
 }
 
