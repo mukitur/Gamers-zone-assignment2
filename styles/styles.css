@@ -15,9 +15,7 @@ body {
   color: #ff42a5;
 }
 /* Header styles */
-header {
-  /* padding: 40px 200px; */
-}
+
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -103,4 +101,33 @@ nav .followus {
   background: #4ec5f7;
   padding: 21px 40px;
   border: none;
+}
+/* 
+.............................
+Main Styles
+.............................
+*/
+
+main {
+  max-width: 1440px;
+  margin: 100px auto;
+}
+.online-games-container h1 {
+  color: #0b0223;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.online-games-container span {
+  background-image: linear-gradient(to bottom, #f948b2, #8758f1);
+  color: transparent;
+  -webkit-background-clip: text;
+  font-size: 3rem;
+}
+.online-games-container > p {
+  color: #534c64;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 50px;
 }
