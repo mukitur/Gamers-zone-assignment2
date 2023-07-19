@@ -110,13 +110,14 @@ Main Styles
 
 main {
   max-width: 1440px;
-  margin: 100px auto;
+  margin: 0 auto;
 }
 .online-games-container h1 {
   color: #0b0223;
   text-align: center;
   font-size: 3rem;
   font-weight: 700;
+  margin-top: 100px;
 }
 .online-games-container span {
   background-image: linear-gradient(to bottom, #f948b2, #8758f1);
@@ -130,4 +131,18 @@ main {
   font-size: 18px;
   font-weight: 400;
   margin-bottom: 50px;
+}
+.online-games {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  align-items: center;
+}
+.online-games img {
+  width: 100%;
+}
+.online-games p {
+  color: #534c64;
+  font-size: 20px;
+  font-weight: 500;
 }
