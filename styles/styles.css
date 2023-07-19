@@ -37,13 +37,19 @@ nav li {
 }
 nav .followus {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  align-content: center;
   align-items: center;
   gap: 0.5rem;
   border-radius: 8px;
   background: rgba(11, 2, 35, 0.1);
   padding: 17px 24px;
   object-fit: cover;
+}
+.followus > img {
+  height: 24px;
+  width: 24px;
 }
 
 /* Main banner styles */
@@ -147,6 +153,9 @@ main {
   font-size: 20px;
   font-weight: 500;
 }
+.games-hover:hover {
+  background-image: url('../images/favicon.png');
+}
 
 /* NO download section */
 .nodownload-section {
@@ -201,6 +210,7 @@ main {
   display: flex;
   justify-content: center;
   align-content: center;
+  align-items: center;
   flex-wrap: wrap;
   gap: 20px;
 }
