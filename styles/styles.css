@@ -124,6 +124,7 @@ main {
   font-size: 3rem;
   font-weight: 700;
   margin-top: 100px;
+  max-width: 1440px;
 }
 .online-games-container span {
   background-image: linear-gradient(to bottom, #f948b2, #8758f1);
@@ -209,8 +210,8 @@ main {
     rgba(255, 66, 165, 0.03) 0%,
     rgba(255, 66, 165, 0.03) 100%
   );
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 120px;
+  padding-bottom: 120px;
   margin: 0 auto;
   width: 100%;
 }
@@ -245,7 +246,6 @@ footer {
   background-color: #0b0223;
   padding-top: 120px;
   padding-bottom: 120px;
-  margin-top: 50px;
   text-align: center;
 }
 .category ul {
