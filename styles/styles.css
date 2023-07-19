@@ -16,7 +16,7 @@ body {
 }
 /* Header styles */
 header {
-  padding: 40px 200px;
+  /* padding: 40px 200px; */
 }
 .header-container {
   display: flex;
@@ -37,7 +37,6 @@ nav ul {
 nav li {
   list-style: none;
 }
-
 nav .followus {
   display: flex;
   justify-content: space-between;
@@ -47,4 +46,61 @@ nav .followus {
   background: rgba(11, 2, 35, 0.1);
   padding: 17px 24px;
   object-fit: cover;
+}
+
+/* Main banner styles */
+.bannner-container {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  gap: 100px;
+  background-image: url('../images/bg-banner-left.png');
+  background-repeat: no-repeat;
+  max-width: 1440px;
+}
+.banner {
+  width: 50%;
+  padding-left: 10rem;
+}
+.bannner-containe .banner-img-right {
+  width: 50%;
+}
+.banner h2 {
+  color: #0b0223;
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.banner h1 {
+  background-image: linear-gradient(to bottom, #f948b2, #8758f1);
+  color: transparent;
+  -webkit-background-clip: text;
+  font-size: 5rem;
+}
+.banner li {
+  list-style: none;
+  color: #534c64;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+.banner li span {
+  color: #ff42a5;
+}
+.banner-img-right img {
+  width: 100%;
+}
+.btn-pink {
+  border-radius: 48px;
+  background: #ff42a5;
+  padding: 21px 40px;
+  border: none;
+  margin-top: 1.2rem;
+}
+.btn-blue {
+  border-radius: 48px;
+  background: #4ec5f7;
+  padding: 21px 40px;
+  border: none;
 }
