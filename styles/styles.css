@@ -20,38 +20,37 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 nav {
+  max-width: 1440px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 nav ul {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  gap: 1.5rem;
+  gap: 2rem;
+  color: #3c354f;
+  font-size: 18px;
+  font-weight: 500;
 }
 nav li {
   list-style: none;
 }
-nav .followus {
+.nav-followus {
   display: flex;
-  /* justify-content: space-between; */
-  flex-wrap: wrap;
-  align-content: center;
+  justify-content: space-around;
   align-items: center;
-  gap: 0.5rem;
+  gap: 1.5rem;
   border-radius: 8px;
   background: rgba(11, 2, 35, 0.1);
-  padding: 17px 24px;
-  object-fit: cover;
+  padding: 15px 20px;
 }
-.followus > img {
-  height: 24px;
-  width: 24px;
-}
-
 /* Main banner styles */
 .bannner-container {
   display: flex;

@@ -1,19 +1,26 @@
 /* Mobile Device */
 @media screen and (max-width: 576px) {
   header,
-  main {
+  main,
+  .header-container,
+  nav ul {
     padding: 20px;
   }
   nav,
-  nav > ul,
-  .header-container {
+  nav > .nav-followus,
+  .header-container,
+  nav ul {
     flex-direction: column;
-    margin: auto;
-    text-align: center;
   }
-  .header-container img {
-    margin-bottom: 20px;
+  .nav-followus {
+    align-items: center;
+    align-content: center;
+    width: 200px;
+    height: 40px;
+    list-style: none;
+    gap: 20px;
   }
+
   .bannner-container {
     flex-direction: column-reverse;
     margin-top: 50px;
@@ -63,18 +70,27 @@
 /* Tablet responsive style */
 @media screen and (min-width: 577px) and (max-width: 1024px) {
   header,
-  main {
+  main,
+  .header-container,
+  nav ul {
     padding: 20px;
   }
   nav,
-  nav > ul,
-  .header-container {
+  nav > .nav-followus,
+  .header-container,
+  nav ul {
     flex-direction: column;
     margin: auto;
     text-align: center;
   }
-  .header-container img {
-    margin-bottom: 20px;
+
+  .nav-followus {
+    align-items: center;
+    align-content: center;
+    width: 200px;
+    height: 40px;
+    list-style: none;
+    gap: 20px;
   }
   .bannner-container {
     flex-direction: column;
