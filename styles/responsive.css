@@ -56,25 +56,6 @@
     text-align: center;
     margin-bottom: 50px;
   }
-  .nodownload-img img {
-    display: inline;
-  }
-  /* action games start */
-  .action-games {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
-  .action-game-container {
-    flex-wrap: nowrap;
-    justify-content: center;
-    gap: 10px;
-
-    padding: 20px;
-  }
-  .card {
-    width: 50%;
-    text-align: center;
-  }
 }
 
 /* Tablet responsive style */

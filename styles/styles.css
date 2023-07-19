@@ -148,7 +148,7 @@ main {
   font-weight: 500;
 }
 
-/* ;;;;;;;;;;;;;;;;;;;;NO download section;;;;;;;;;;;;;;;;;;;;;;;;; */
+/* NO download section */
 .nodownload-section {
   min-height: 500px;
   padding: 100px 0;
@@ -195,22 +195,27 @@ main {
   margin-top: 1.5rem;
 }
 /* Action Games styles */
-.action-games {
+/* .action-games {
   margin-top: 10rem;
   margin-bottom: 100px;
-}
+} */
 .action-game-container {
+  margin-top: 100px;
   display: flex;
   justify-content: center;
+  align-content: center;
   flex-wrap: wrap;
-  flex-grow: 1;
-  gap: 70px;
+  gap: 20px;
 }
 .card {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
+}
+.card img {
+  width: 60px;
+  height: 60px;
 }
 .card:hover {
   border: 1px solid #ff42a5;
