@@ -179,6 +179,7 @@ play online styles start
   position: absolute;
   right: 250px;
   top: 300px;
+  /* bottom: 200px; */
 }
 .play-online-bottom-img img {
   width: 70%;
