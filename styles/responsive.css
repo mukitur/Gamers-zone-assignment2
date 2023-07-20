@@ -36,6 +36,19 @@
     background-color: #fff;
     padding-bottom: 10px;
   }
+  /* Online Games part start */
+  .action-games {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .action-game-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* gap: 5px; */
+    padding: 10px;
+    /* width: 100%; */
+    margin: auto;
+  }
   .online-games {
     grid-template-columns: 1fr;
     margin: auto;
@@ -43,6 +56,7 @@
   .online-games-container h1 {
     margin-top: 30px;
   }
+
   /* nodownload styles */
   .nodownload-section {
     padding: 10px;
