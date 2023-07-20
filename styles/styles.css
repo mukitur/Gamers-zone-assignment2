@@ -160,6 +160,7 @@ main {
   color: #534c64;
   font-size: 20px;
   font-weight: 500;
+  padding-top: 1rem;
 }
 /* image overlay styles */
 .overlay-image {
@@ -184,6 +185,7 @@ main {
   justify-content: center;
   opacity: 0;
   border-radius: 16px;
+  border: 2px solid #f948b2;
 }
 .faicon {
   width: 48px;
